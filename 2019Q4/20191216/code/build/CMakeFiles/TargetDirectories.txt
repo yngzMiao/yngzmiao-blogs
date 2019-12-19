@@ -1,0 +1,7 @@
+/home/yngzmiao/test/test_android/build/CMakeFiles/install.dir
+/home/yngzmiao/test/test_android/build/CMakeFiles/list_install_components.dir
+/home/yngzmiao/test/test_android/build/CMakeFiles/rebuild_cache.dir
+/home/yngzmiao/test/test_android/build/CMakeFiles/main.dir
+/home/yngzmiao/test/test_android/build/CMakeFiles/edit_cache.dir
+/home/yngzmiao/test/test_android/build/CMakeFiles/install/strip.dir
+/home/yngzmiao/test/test_android/build/CMakeFiles/install/local.dir
