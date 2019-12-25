@@ -1,5 +1,7 @@
 当在`ARM`芯片上进行一些例如图像处理等计算的时候，常常会因为计算量太大造成计算帧率较低的情况。因而，需要选择一种更加简单快捷的计算方式以获得处理速度上的提升。`ARM NEON`就是一个不错的选择。
 
+**本文实例源码github地址**：[https://github.com/yngzMiao/yngzmiao-blogs/tree/master/2019Q4/20191216](https://github.com/yngzMiao/yngzmiao-blogs/tree/master/2019Q4/20191216)。
+
 <br/>
 
 ## Neon指令优化

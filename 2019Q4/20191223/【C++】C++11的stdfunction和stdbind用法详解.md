@@ -1,5 +1,7 @@
 在设计回调函数的时候，无可避免地会接触到可回调对象。在C++11中，提供了`std::function`和`std::bind`两个方法来对可回调对象进行统一和封装。
 
+**本文实例源码github地址**：[https://github.com/yngzMiao/yngzmiao-blogs/tree/master/2019Q4/20191223](https://github.com/yngzMiao/yngzmiao-blogs/tree/master/2019Q4/20191223)。
+
 <br/>
 
 ## 可调用对象

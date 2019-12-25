@@ -5,6 +5,8 @@
 
 一般来说，只要使用NDK自带的工具链即可满足日常的需求。本文就这种交叉编译方式进行讲解。
 
+**本文实例源码github地址**：[https://github.com/yngzMiao/yngzmiao-blogs/tree/master/2019Q4/20191219](https://github.com/yngzMiao/yngzmiao-blogs/tree/master/2019Q4/20191219)。
+
 <br/>
 
 ## 前期准备

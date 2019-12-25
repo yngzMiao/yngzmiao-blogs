@@ -1,3 +1,9 @@
+Protobuf是Google开源的一个项目，博主将会在几篇博文中对其进行讲解。
+
+**本文实例源码github地址**：[https://github.com/yngzMiao/yngzmiao-blogs/tree/master/2019Q4/20191225](https://github.com/yngzMiao/yngzmiao-blogs/tree/master/2019Q4/20191225)。
+
+<br/>
+
 ## 序列化和反序列化
 有些时候，我们希望将对象保存到文件中，或者传输给其他的应用程序。比如：web网页后端和前端的数据交互，应用程序产生的中间数据等等。
 
