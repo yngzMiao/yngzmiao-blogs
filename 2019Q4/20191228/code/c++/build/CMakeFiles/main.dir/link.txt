@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x   CMakeFiles/main.dir/main.cc.o  -o main -rdynamic proto_pb2/libperson_pb2.a -lprotobuf 
