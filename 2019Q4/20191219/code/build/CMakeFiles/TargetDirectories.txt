@@ -1,7 +1,0 @@
-/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191219/code/build/CMakeFiles/install.dir
-/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191219/code/build/CMakeFiles/list_install_components.dir
-/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191219/code/build/CMakeFiles/rebuild_cache.dir
-/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191219/code/build/CMakeFiles/main.dir
-/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191219/code/build/CMakeFiles/edit_cache.dir
-/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191219/code/build/CMakeFiles/install/strip.dir
-/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191219/code/build/CMakeFiles/install/local.dir
