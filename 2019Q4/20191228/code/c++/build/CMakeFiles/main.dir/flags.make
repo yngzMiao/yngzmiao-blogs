@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++0x   -Wall -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yngzmiao/test/test12/c++/proto_pb2 
+CXX_INCLUDES = -I/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/proto_pb2 
 

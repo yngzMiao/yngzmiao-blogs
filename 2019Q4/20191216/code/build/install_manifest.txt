@@ -1,1 +1,1 @@
-/home/yngzmiao/test/test_android/main
+/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191216/code/main

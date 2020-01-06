@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yngzmiao/test/test12/c++/proto_pb2/person.pb.cc" "/home/yngzmiao/test/test12/c++/build/proto_pb2/CMakeFiles/person_pb2.dir/person.pb.cc.o"
+  "/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/proto_pb2/person.pb.cc" "/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/build/proto_pb2/CMakeFiles/person_pb2.dir/person.pb.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

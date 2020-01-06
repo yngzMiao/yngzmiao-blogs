@@ -1,4 +1,4 @@
-# Install script for directory: /home/yngzmiao/test/test_android
+# Install script for directory: /home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191216/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,18 +34,18 @@ endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/yngzmiao/test/test_android/main")
+   "/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191216/code/main")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yngzmiao/test/test_android" TYPE EXECUTABLE FILES "/home/yngzmiao/test/test_android/build/main")
-  if(EXISTS "$ENV{DESTDIR}/home/yngzmiao/test/test_android/main" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/yngzmiao/test/test_android/main")
+file(INSTALL DESTINATION "/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191216/code" TYPE EXECUTABLE FILES "/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191216/code/build/main")
+  if(EXISTS "$ENV{DESTDIR}/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191216/code/main" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191216/code/main")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/opt/env/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-strip" "$ENV{DESTDIR}/home/yngzmiao/test/test_android/main")
+      execute_process(COMMAND "/opt/env/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-strip" "$ENV{DESTDIR}/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191216/code/main")
     endif()
   endif()
 endif()
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yngzmiao/test/test_android/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191216/code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

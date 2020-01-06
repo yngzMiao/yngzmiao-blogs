@@ -1,4 +1,4 @@
-# Install script for directory: /home/yngzmiao/test/test12/c++/proto_pb2
+# Install script for directory: /home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/proto_pb2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

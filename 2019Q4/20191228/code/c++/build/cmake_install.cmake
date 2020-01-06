@@ -1,4 +1,4 @@
-# Install script for directory: /home/yngzmiao/test/test12/c++
+# Install script for directory: /home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,32 +33,32 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/yngzmiao/test/test12/c++/main" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/yngzmiao/test/test12/c++/main")
+  if(EXISTS "$ENV{DESTDIR}/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/main" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/main")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/yngzmiao/test/test12/c++/main"
+         FILE "$ENV{DESTDIR}/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/main"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/yngzmiao/test/test12/c++/main")
+   "/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/main")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yngzmiao/test/test12/c++" TYPE EXECUTABLE FILES "/home/yngzmiao/test/test12/c++/build/main")
-  if(EXISTS "$ENV{DESTDIR}/home/yngzmiao/test/test12/c++/main" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/yngzmiao/test/test12/c++/main")
+file(INSTALL DESTINATION "/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++" TYPE EXECUTABLE FILES "/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/build/main")
+  if(EXISTS "$ENV{DESTDIR}/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/main" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/main")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/yngzmiao/test/test12/c++/main")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/main")
     endif()
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yngzmiao/test/test12/c++/build/proto_pb2/cmake_install.cmake")
+  include("/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/build/proto_pb2/cmake_install.cmake")
 
 endif()
 
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yngzmiao/test/test12/c++/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yngzmiao/github/yngzmiao-blogs/2019Q4/20191228/code/c++/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
