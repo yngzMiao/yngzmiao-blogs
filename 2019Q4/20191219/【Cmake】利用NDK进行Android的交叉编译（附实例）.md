@@ -35,6 +35,7 @@ make install
 官方文档地址：[CMake | Android NDK | Android Developers](https://developer.android.com/ndk/guides/cmake?hl=zh-cn)。
 
 下表介绍在将CMake和NDK搭配使用时，可以配置的部分变量：
+
 | 编译参数 | 说明 |
 | :---: | :---: |
 | **ANDROID_PLATFORM** | **指定目标Android平台的名称，如android-18指定Android 4.3(API级别18)** |
@@ -46,6 +47,7 @@ make install
 | ANDROID_DISABLE_FORMAT_STRING_CHECKS | 指定是否在编译源代码时保护格式字符串。启用保护后，如果在printf样式函数中使用非常量格式字符串，则编译器会引发错误。默认false |
 
 下表介绍在Android进行交叉编译时，可以使用的具体构建参数，将有助于调试CMake构建问题：
+
 | 编译参数 | 说明 |
 | :---: | :---: |
 | **ANDROID_ABI** | **目标ABI，可设置为armeabi-v7a、arm64-v8a、x86、x86_64，默认armeabi** |

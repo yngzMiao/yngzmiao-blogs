@@ -46,6 +46,7 @@ install(TARGETS targets... [EXPORT <export-name>]
         )
 ```
 参数中的`TARGET`可以是很多种目标文件，最常见的是**通过ADD_EXECUTABLE或者ADD_LIBRARY定义的目标文件，即可执行二进制、动态库、静态库**：
+
 | 目标文件 | 内容 | 安装目录变量 | 默认安装文件夹 |
 | :---: | :---: | :---: | :---: |
 | ARCHIVE | 静态库 | ${CMAKE_INSTALL_LIBDIR} | lib |
@@ -98,6 +99,7 @@ install(<FILES|PROGRAMS> files...
 如果未提供`PERMISSIONS`参数，默认情况下，**普通的文本文件将具有OWNER_WRITE，OWNER_READ，GROUP_READ和WORLD_READ权限，即644权限；而非目标文件的可执行程序将具有OWNER_EXECUTE, GROUP_EXECUTE,和WORLD_EXECUTE，即755权限**。
 
 其中，不同的`TYPE`，`cmake`也提供了默认的安装路径，如下表：
+
 | TYPE类型 | 安装目录变量 | 默认安装文件夹 |
 | :---: | :---: | :---: |
 | BIN | ${CMAKE_INSTALL_BINDIR} | bin |

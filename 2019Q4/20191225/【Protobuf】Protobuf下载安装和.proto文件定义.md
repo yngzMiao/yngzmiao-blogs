@@ -136,6 +136,7 @@ message Person {
 * repeated: 表示该字段可以有多个值，一般会被编译为对应语言的集合类或数组。由于一些历史原因，基本数值类型的repeated的字段并没有被尽可能地高效编码。在新的代码中，用户应该使用特殊选项`[packed=true]`来保证更高效的编码。
 
 字段类型：可以指定proto定义的数据类型，当然也可以指定自己定义的数据类型。proto定义的数据类型如下：
+
 | .proto类型 | C++ Type | Java Type | Python Type | Note |
 | :---: | :---: | :---: | :---: | :---: |
 | double |  | double | double | float |
