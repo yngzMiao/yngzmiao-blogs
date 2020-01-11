@@ -1,0 +1,146 @@
+def fun(name1, name2, closure) {
+  closure(name1, name2)
+}
+
+fun('zhangcan', 'lisi') {
+    def u, v ->
+        println "hello ${u} hello ${v}"
+}
+
+
+def result = 1
+1.upto(100) {
+  result += it
+}
+println result
+
+
+def str = 'hello 6 world'
+println str.find {
+    return it.isNumber()
+}
+
+
+def l = [6, 5, 8, 3, 7, 1, 4, 2, 0, 9]
+
+println l.sort {                    //排序，由小到大排序
+    def u, v ->
+        u > v ? 1 : -1
+}
+
+println l.find {                    //找出第一个满足条件的列表元素
+    return it % 2 == 0
+}
+println l.findAll {                 //找出所有满足条件的列表元素
+    return it % 2 == 0
+}
+
+println l.any {                     //列表是否存在满足条件的元素
+    return it % 2 == 0
+}
+println l.every {                   //列表是否都是满足条件的元素
+    return it % 2 == 0
+}
+println l.count {                   //列表中满足条件的元素个数
+    return it % 2 == 0
+}
+
+println l.max {                     //列表元素进行某运算操作后的最大值
+    return Math.abs(it)
+}
+println l.min {                     //列表元素进行某运算操作后的最小值
+    return Math.abs(it)
+}
+
+
+def colors = ['red': '#FF0000', 'green': '#00FF00', 'blue': '#0000FF']
+
+colors.each {
+    println "key: ${it.key} value: ${it.value}"
+    println "key: ${it.getKey()} value: ${it.getValue()}"
+}
+
+colors.eachWithIndex {
+    def u, v->
+        println "${v} key: ${u.key} value: ${u.value}"
+}
+
+colors.each {
+    def u, v->
+        println "key: ${u} value: ${v}"
+}
+
+
+
+def colors = ['red': '#FF0000', 'green': '#00FF00', 'blue': '#0000FF']
+
+println colors.find {                   //找出第一个满足条件的元素键值对
+    return it.key.equals('green')
+}.collect{                              //对键值对进行过滤，返回输出内容
+    return it.value
+}
+
+println colors.sort {                   //排序，由小到大排序
+    def u, v ->
+        return u.key > v.key ? 1 : -1
+}
+
+println colors.groupBy {                //对键值对进行条件分类
+    return it.key.equals('blue') ? 'one' : 'two'
+}             //结果：{two={red=#FF0000, green=#00FF00}, one={blue=#0000FF}}
+
+
+
+def content = new File('test.txt')
+
+println content.getText()               //获得文件内容字符串
+println content.readLines()             //将文件每行内容作为元素，形成list列表
+
+
+
+new File('test.txt').eachLine {
+    println it
+}
+
+new File('test.txt').eachLine {
+    def u, v ->
+        println "line_no: ${v} line_content: ${u}"
+}
+
+
+
+new File('test.txt').withReader {
+    char[] buffer = new char[100]
+    it.read(buffer)
+    println buffer
+}
+
+
+
+new File('test1.txt').withWriter('utf-8') {
+    it.writeLine 'hello world'
+    it.append 'hello you'
+}
+
+
+
+Properties prop = new Properties()
+prop.load(new FileInputStream(new File('test.properties')))
+println prop
+
+
+
+import groovy.io.FileType
+
+new File('floder').eachFile {                 //遍历文件夹内的文件和目录
+    println it.name
+}
+
+new File('floder').eachFileRecurse {          //递归遍历文件夹内的文件和目录
+    println it.name
+}
+
+new File('floder').eachFileRecurse(FileType.FILES) {        //递归遍历文件夹内的文件
+    println it.name
+}
+

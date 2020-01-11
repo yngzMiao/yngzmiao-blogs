@@ -1,0 +1,100 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+
+
+System.out.println("Hello World!");
+println("Hello World!");                    //省略前缀
+println "Hello World!";                     //省略括号
+println "Hello World!"                      //省略分号
+
+
+x = 1
+y = 2
+
+int add(int a, int b) {
+    a+b
+}
+println add(1, 2)
+
+class Server {
+    String toString() { 
+        "a server" 
+    }
+}
+
+
+def s1 = 'hello world'
+def s2 = '''hello
+
+world'''
+println s1
+println s2
+
+
+def s1 = 'hello world'
+def s2 = ">>> ${s1}"
+println s2
+
+def s1 = 'hello'
+def s2 = 'hello world'
+def s3 = '34'
+
+s1.class                  //查看类型
+s1 instanceof String      //判断类型
+s1.compareTo(s2)          //字符串比较
+s1 > s2                   //字符串比较
+s1.charAt(1)              //提取字符
+s1[2]                     //切片提取字符
+s1[2..4]                  //切片提取字符，包含结束
+s2.substring(1, 8)        //截取字符串，不包含结束
+s2.minus(s1)              //字符串中去除子串
+s2 - s1                   //字符串中去除子串
+s2.replace(s1, s3)        //字符串代替
+s2.indexOf(s1, 0)         //字符串查找
+s1.reverse()              //字符串反转
+s3.isNumber()             //字符串是否为数字
+s3.toInteger()            //字符串转数字
+
+
+def numbers = [1, 2, 3]
+
+numbers.class                   //查看类型
+numbers instanceof List         //判断类型
+numbers.get(2)                  //按索引获取元素
+numbers.size()                  //获取列表长度
+numbers << 4                    //添加元素
+numbers.add(1, 5)               //按索引添加元素
+numbers.remove(1)               //按索引删除元素
+numbers.set(1, 5)               //按索引修改元素
+numbers.contains(5)             //判断元素是否存在
+numbers.indexOf(5)              //查找元素第一次出现位置
+numbers.lastIndexOf(5)          //查找元素最后一次出现位置
+
+
+def colors = [red: '#FF0000', green: '#00FF00', blue: '#0000FF']
+
+colors.class                        //查看类型
+colors instanceof java.util.LinkedHashMap       //判断类型
+colors['red']                       //按key获取元素，存在可修改，不存在可添加
+colors.red                          //按key获取元素，存在可修改，不存在可添加
+colors.get('red')                   //按key获取元素，存在可修改，不存在可添加
+colors.remove("red")                //按key删除元素
+colors.containsKey("red")           //判断key是否存在
+colors.size()                       //获取map的长度
+colors.keySet()                     //获取map的key集合
+colors.entrySet()                   //获取map的键值对集合
+colors.values()                     //获取map的value集合
+
+
+def fun(person, age) {
+  if(age > 18)
+    println "hello adult ${person}"
+  else
+    println "hello child ${person}"
+}
+
+fun('zhangsan', 17)
+fun('lisi', 19)
